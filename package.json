@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "description": "",
   "keywords": [],
+  "sideEffects": false,
   "main": "dist/ts-equality-comparer.umd.js",
   "module": "dist/ts-equality-comparer.es5.js",
   "typings": "dist/types/ts-equality-comparer.d.ts",
@@ -118,7 +119,7 @@
     "typescript": "^3.0.3"
   },
   "dependencies": {
-    "ts-deep-equal": "^1.1.2",
-    "ts-gethashcode": "^1.0.0"
+    "ts-deep-equal": "^1.1.4",
+    "ts-gethashcode": "^1.0.1"
   }
 }
